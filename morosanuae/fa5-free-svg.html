@@ -3331,6 +3331,8 @@ Error message and password prompt
 
 <li>btn-template-2</li>
 
+<li>Download-Info</li>
+
 <li>Font Awesome 5 Free SVGs for TiddlyWiki</li>
 
 <li>How to make a manual conversion (tutorial)</li>
@@ -12477,8 +12479,9 @@ $:/state/popup/$(image)$
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div created="20190706090606024" modified="20190709192916088" title="$:/DefaultTiddlers">
-<pre>[[Font Awesome 5 Free SVGs for TiddlyWiki]]
+<div created="20190706090606024" modified="20200926154410917" title="$:/DefaultTiddlers">
+<pre>Download-Info
+[[Font Awesome 5 Free SVGs for TiddlyWiki]]
 </pre>
 </div>
 <div created="20190710125513701" modified="20190710125523120" title="$:/favicon.ico" type="image/x-icon">
@@ -17145,8 +17148,8 @@ $:/state/popup/$(image)$
 <div created="20190706092306681" modified="20190709140707025" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/EditorTypes</pre>
 </div>
-<div created="20190706090201314" modified="20191123005438613" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20190706090201314" modified="20200926154405794" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20190706090202626" modified="20190706090202626" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/TiddlySpot</pre>
@@ -17154,8 +17157,8 @@ $:/state/popup/$(image)$
 <div created="20190706091108303" modified="20191003123621216" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Explorer</pre>
 </div>
-<div created="20190706091106831" modified="20191006165609919" title="$:/state/tab/sidebar--595412856">
-<pre>$:/_morosanuae/util/batch-export</pre>
+<div created="20190706091106831" modified="20200926154354196" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Recent</pre>
 </div>
 <div created="20191003075731713" modified="20191003103437718" title="$:/state/tab1-1930495609">
 <pre>SampleTabOne</pre>
@@ -17205,7 +17208,7 @@ $:/state/popup/$(image)$
 <div created="20190706094450081" modified="20191003123623336" title="$:/state/tree/$:/state/">
 <pre>show</pre>
 </div>
-<div list="[[Font Awesome 5 Free SVGs for TiddlyWiki]]" title="$:/StoryList">
+<div created="20200926154400026" list="[[Font Awesome 5 Free SVGs for TiddlyWiki]]" modified="20200926154400026" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20190706214803271" modified="20190720112815334" title="$:/temp/advancedsearch">
@@ -17224,19 +17227,19 @@ $:/state/popup/$(image)$
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;http://fa5-free-svg.tiddlyspot.com/&quot;
+            &quot;text&quot;: &quot;file:///C:/data/84-TW5/_legacy/_useful_tw5_files_from_internet/fa5-free-svg.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
-            &quot;text&quot;: &quot;fa5-free-svg.tiddlyspot.com&quot;
+            &quot;text&quot;: &quot;&quot;
         },
         &quot;$:/info/url/hostname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
-            &quot;text&quot;: &quot;fa5-free-svg.tiddlyspot.com&quot;
+            &quot;text&quot;: &quot;&quot;
         },
         &quot;$:/info/url/protocol&quot;: {
             &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
-            &quot;text&quot;: &quot;http:&quot;
+            &quot;text&quot;: &quot;file:&quot;
         },
         &quot;$:/info/url/port&quot;: {
             &quot;title&quot;: &quot;$:/info/url/port&quot;,
@@ -17244,7 +17247,7 @@ $:/state/popup/$(image)$
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/&quot;
+            &quot;text&quot;: &quot;/C:/data/84-TW5/_legacy/_useful_tw5_files_from_internet/fa5-free-svg.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -17252,7 +17255,7 @@ $:/state/popup/$(image)$
         },
         &quot;$:/info/url/origin&quot;: {
             &quot;title&quot;: &quot;$:/info/url/origin&quot;,
-            &quot;text&quot;: &quot;http://fa5-free-svg.tiddlyspot.com&quot;
+            &quot;text&quot;: &quot;null&quot;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
@@ -17401,6 +17404,15 @@ $:/state/popup/$(image)$
 <div created="20191003103406402" modified="20191003130454729" tags="" title="btn-template-2">
 <pre>&lt;$transclude tiddler=&lt;&lt;currentTab&gt;&gt; field=&quot;caption&quot;&gt;&lt;&lt;currentTab&gt;&gt;&lt;/$transclude&gt; &lt;$button&gt;&lt;$action-navigate $to=&lt;&lt;currentTab&gt;&gt; /&gt; &lt;$action-sendmessage $message=&quot;tm-edit-tiddler&quot; $param=&lt;&lt;currentTab&gt;&gt; /&gt;{{$:/core/images/edit-button}}&lt;/$button&gt;
 </pre>
+</div>
+<div created="20200926154211700" modified="20200926154256958" tags="" title="Download-Info">
+<pre>26.09.2020
+
+http://fa5-free-svg.tiddlyspot.com/ by ''??''
+
+!!! Interesting Resources/Discussions:
+
+* --</pre>
 </div>
 <div color="#0080ff" created="20190706090257869" icon="$:/images/fa5/brands/font-awesome" modified="20190812131217974" tags="" title="Font Awesome 5 Free SVGs for TiddlyWiki">
 <pre>&lt;div class=&quot;mc-new-banner&quot;&gt;
